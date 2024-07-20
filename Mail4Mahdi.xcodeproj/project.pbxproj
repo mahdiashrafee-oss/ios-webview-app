@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA8EE3C52C55BA74005DDD91 /* Mail4MahdiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8EE3C42C55BA74005DDD91 /* Mail4MahdiApp.swift */; };
+		EA8EE3C72C55BA74005DDD91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8EE3C62C55BA74005DDD91 /* ContentView.swift */; };
+		EA8EE3C92C55BA77005DDD91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8EE3C82C55BA77005DDD91 /* Assets.xcassets */; };
+		EA8EE3CC2C55BA77005DDD91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8EE3CB2C55BA77005DDD91 /* Preview Assets.xcassets */; };
+		EA8EE3D62C55BA78005DDD91 /* Mail4MahdiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8EE3D52C55BA78005DDD91 /* Mail4MahdiTests.swift */; };
+		EA8EE3E02C55BA78005DDD91 /* Mail4MahdiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8EE3DF2C55BA78005DDD91 /* Mail4MahdiUITests.swift */; };
+		EA8EE3E22C55BA78005DDD91 /* Mail4MahdiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8EE3E12C55BA78005DDD91 /* Mail4MahdiUITestsLaunchTests.swift */; };
+		EA8EE3EF2C55BB9B005DDD91 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8EE3EE2C55BB9B005DDD91 /* WebView.swift */; };
+		EA8EE3F32C56863E005DDD91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8EE3F22C56863E005DDD91 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA8EE3D22C55BA78005DDD91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8EE3B92C55BA74005DDD91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8EE3C02C55BA74005DDD91;
+			remoteInfo = Mail4Mahdi;
+		};
+		EA8EE3DC2C55BA78005DDD91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8EE3B92C55BA74005DDD91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8EE3C02C55BA74005DDD91;
+			remoteInfo = Mail4Mahdi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA8EE3C12C55BA74005DDD91 /* Mail4Mahdi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mail4Mahdi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8EE3C42C55BA74005DDD91 /* Mail4MahdiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail4MahdiApp.swift; sourceTree = "<group>"; };
+		EA8EE3C62C55BA74005DDD91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA8EE3C82C55BA77005DDD91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA8EE3CB2C55BA77005DDD91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA8EE3D12C55BA78005DDD91 /* Mail4MahdiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mail4MahdiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8EE3D52C55BA78005DDD91 /* Mail4MahdiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail4MahdiTests.swift; sourceTree = "<group>"; };
+		EA8EE3DB2C55BA78005DDD91 /* Mail4MahdiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mail4MahdiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8EE3DF2C55BA78005DDD91 /* Mail4MahdiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail4MahdiUITests.swift; sourceTree = "<group>"; };
+		EA8EE3E12C55BA78005DDD91 /* Mail4MahdiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail4MahdiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA8EE3EE2C55BB9B005DDD91 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		EA8EE3F22C56863E005DDD91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8EE3BE2C55BA74005DDD91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8EE3CE2C55BA78005DDD91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8EE3D82C55BA78005DDD91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8EE3B82C55BA74005DDD91 = {
+			isa = PBXGroup;
+			children = (
+				EA8EE3F22C56863E005DDD91 /* AppDelegate.swift */,
+				EA8EE3EE2C55BB9B005DDD91 /* WebView.swift */,
+				EA8EE3C32C55BA74005DDD91 /* Mail4Mahdi */,
+				EA8EE3D42C55BA78005DDD91 /* Mail4MahdiTests */,
+				EA8EE3DE2C55BA78005DDD91 /* Mail4MahdiUITests */,
+				EA8EE3C22C55BA74005DDD91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8EE3C22C55BA74005DDD91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EE3C12C55BA74005DDD91 /* Mail4Mahdi.app */,
+				EA8EE3D12C55BA78005DDD91 /* Mail4MahdiTests.xctest */,
+				EA8EE3DB2C55BA78005DDD91 /* Mail4MahdiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8EE3C32C55BA74005DDD91 /* Mail4Mahdi */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EE3C42C55BA74005DDD91 /* Mail4MahdiApp.swift */,
+				EA8EE3C62C55BA74005DDD91 /* ContentView.swift */,
+				EA8EE3C82C55BA77005DDD91 /* Assets.xcassets */,
+				EA8EE3CA2C55BA77005DDD91 /* Preview Content */,
+			);
+			path = Mail4Mahdi;
+			sourceTree = "<group>";
+		};
+		EA8EE3CA2C55BA77005DDD91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EE3CB2C55BA77005DDD91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA8EE3D42C55BA78005DDD91 /* Mail4MahdiTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EE3D52C55BA78005DDD91 /* Mail4MahdiTests.swift */,
+			);
+			path = Mail4MahdiTests;
+			sourceTree = "<group>";
+		};
+		EA8EE3DE2C55BA78005DDD91 /* Mail4MahdiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EE3DF2C55BA78005DDD91 /* Mail4MahdiUITests.swift */,
+				EA8EE3E12C55BA78005DDD91 /* Mail4MahdiUITestsLaunchTests.swift */,
+			);
+			path = Mail4MahdiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8EE3C02C55BA74005DDD91 /* Mail4Mahdi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8EE3E52C55BA78005DDD91 /* Build configuration list for PBXNativeTarget "Mail4Mahdi" */;
+			buildPhases = (
+				EA8EE3BD2C55BA74005DDD91 /* Sources */,
+				EA8EE3BE2C55BA74005DDD91 /* Frameworks */,
+				EA8EE3BF2C55BA74005DDD91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mail4Mahdi;
+			productName = Mail4Mahdi;
+			productReference = EA8EE3C12C55BA74005DDD91 /* Mail4Mahdi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA8EE3D02C55BA78005DDD91 /* Mail4MahdiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8EE3E82C55BA78005DDD91 /* Build configuration list for PBXNativeTarget "Mail4MahdiTests" */;
+			buildPhases = (
+				EA8EE3CD2C55BA78005DDD91 /* Sources */,
+				EA8EE3CE2C55BA78005DDD91 /* Frameworks */,
+				EA8EE3CF2C55BA78005DDD91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8EE3D32C55BA78005DDD91 /* PBXTargetDependency */,
+			);
+			name = Mail4MahdiTests;
+			productName = Mail4MahdiTests;
+			productReference = EA8EE3D12C55BA78005DDD91 /* Mail4MahdiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA8EE3DA2C55BA78005DDD91 /* Mail4MahdiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8EE3EB2C55BA78005DDD91 /* Build configuration list for PBXNativeTarget "Mail4MahdiUITests" */;
+			buildPhases = (
+				EA8EE3D72C55BA78005DDD91 /* Sources */,
+				EA8EE3D82C55BA78005DDD91 /* Frameworks */,
+				EA8EE3D92C55BA78005DDD91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8EE3DD2C55BA78005DDD91 /* PBXTargetDependency */,
+			);
+			name = Mail4MahdiUITests;
+			productName = Mail4MahdiUITests;
+			productReference = EA8EE3DB2C55BA78005DDD91 /* Mail4MahdiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8EE3B92C55BA74005DDD91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EA8EE3C02C55BA74005DDD91 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					EA8EE3D02C55BA78005DDD91 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EA8EE3C02C55BA74005DDD91;
+					};
+					EA8EE3DA2C55BA78005DDD91 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EA8EE3C02C55BA74005DDD91;
+					};
+				};
+			};
+			buildConfigurationList = EA8EE3BC2C55BA74005DDD91 /* Build configuration list for PBXProject "Mail4Mahdi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8EE3B82C55BA74005DDD91;
+			productRefGroup = EA8EE3C22C55BA74005DDD91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8EE3C02C55BA74005DDD91 /* Mail4Mahdi */,
+				EA8EE3D02C55BA78005DDD91 /* Mail4MahdiTests */,
+				EA8EE3DA2C55BA78005DDD91 /* Mail4MahdiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8EE3BF2C55BA74005DDD91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8EE3CC2C55BA77005DDD91 /* Preview Assets.xcassets in Resources */,
+				EA8EE3C92C55BA77005DDD91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8EE3CF2C55BA78005DDD91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8EE3D92C55BA78005DDD91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8EE3BD2C55BA74005DDD91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8EE3F32C56863E005DDD91 /* AppDelegate.swift in Sources */,
+				EA8EE3EF2C55BB9B005DDD91 /* WebView.swift in Sources */,
+				EA8EE3C72C55BA74005DDD91 /* ContentView.swift in Sources */,
+				EA8EE3C52C55BA74005DDD91 /* Mail4MahdiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8EE3CD2C55BA78005DDD91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8EE3D62C55BA78005DDD91 /* Mail4MahdiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8EE3D72C55BA78005DDD91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8EE3E22C55BA78005DDD91 /* Mail4MahdiUITestsLaunchTests.swift in Sources */,
+				EA8EE3E02C55BA78005DDD91 /* Mail4MahdiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA8EE3D32C55BA78005DDD91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8EE3C02C55BA74005DDD91 /* Mail4Mahdi */;
+			targetProxy = EA8EE3D22C55BA78005DDD91 /* PBXContainerItemProxy */;
+		};
+		EA8EE3DD2C55BA78005DDD91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8EE3C02C55BA74005DDD91 /* Mail4Mahdi */;
+			targetProxy = EA8EE3DC2C55BA78005DDD91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA8EE3E32C55BA78005DDD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA8EE3E42C55BA78005DDD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8EE3E62C55BA78005DDD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mail4Mahdi/Preview Content\"";
+				DEVELOPMENT_TEAM = 225298UG47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mahdi.Mail4Mahdi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA8EE3E72C55BA78005DDD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mail4Mahdi/Preview Content\"";
+				DEVELOPMENT_TEAM = 225298UG47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mahdi.Mail4Mahdi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA8EE3E92C55BA78005DDD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 225298UG47;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mahdi.Mail4MahdiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mail4Mahdi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mail4Mahdi";
+			};
+			name = Debug;
+		};
+		EA8EE3EA2C55BA78005DDD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 225298UG47;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mahdi.Mail4MahdiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mail4Mahdi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mail4Mahdi";
+			};
+			name = Release;
+		};
+		EA8EE3EC2C55BA78005DDD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 225298UG47;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mahdi.Mail4MahdiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mail4Mahdi;
+			};
+			name = Debug;
+		};
+		EA8EE3ED2C55BA78005DDD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 225298UG47;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mahdi.Mail4MahdiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mail4Mahdi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8EE3BC2C55BA74005DDD91 /* Build configuration list for PBXProject "Mail4Mahdi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8EE3E32C55BA78005DDD91 /* Debug */,
+				EA8EE3E42C55BA78005DDD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8EE3E52C55BA78005DDD91 /* Build configuration list for PBXNativeTarget "Mail4Mahdi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8EE3E62C55BA78005DDD91 /* Debug */,
+				EA8EE3E72C55BA78005DDD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8EE3E82C55BA78005DDD91 /* Build configuration list for PBXNativeTarget "Mail4MahdiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8EE3E92C55BA78005DDD91 /* Debug */,
+				EA8EE3EA2C55BA78005DDD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8EE3EB2C55BA78005DDD91 /* Build configuration list for PBXNativeTarget "Mail4MahdiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8EE3EC2C55BA78005DDD91 /* Debug */,
+				EA8EE3ED2C55BA78005DDD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8EE3B92C55BA74005DDD91 /* Project object */;
+}
